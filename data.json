@@ -1,0 +1,84 @@
+{
+  "firstName": "RICHARD",
+  "lastName": "SANCHEZ",
+  "title": "MARKETING MANAGER",
+  "contact": {
+    "phone": "+123-456-7890",
+    "email": "hello@site.com",
+    "address": "123 Anywhere",
+    "website": "www.site.com"
+  },
+  "education": [
+    {
+      "year": "2029 - 2030",
+      "university": "WARDIERE UNIVERSITY",
+      "degrees": ["Master of Business Management"]
+    },
+    {
+      "year": "2025 - 2029",
+      "university": "WARDIERE UNIVERSITY",
+      "degrees": ["Bachelor of Business", "GPA: 3.8 / 4.0"]
+    }
+  ],
+  "skills": [
+    "Project Management",
+    "Public Relations",
+    "Teamwork",
+    "Time Management",
+    "Leadership",
+    "Effective Communication",
+    "Critical Thinking"
+  ],
+  "languages": [
+    "English (Fluent)",
+    "French (Fluent)",
+    "German (Basics)",
+    "Spanish (Basic)"
+  ],
+  "workExperience": [
+    {
+      "company": "Borcelle Studio",
+      "date": "2030 - 2035",
+      "position": "Marketing Manager & Specialist",
+      "responsibilities": [
+        "Develop and execute comprehensive marketing strategies",
+        "Lead, mentor, and manage a marketing team",
+        "Monitor brand consistency across marketing channels"
+      ]
+    },
+    {
+      "company": "Fauget Studio",
+      "date": "2025 - 2029",
+      "position": "Marketing Manager & Specialist",
+      "responsibilities": [
+        "Create and manage the marketing budget",
+        "Oversee market research",
+        "Monitor brand consistency across channels"
+      ]
+    },
+    {
+      "company": "Studio Shodwe",
+      "date": "2024 - 2025",
+      "position": "Marketing Manager & Specialist",
+      "responsibilities": [
+        "Develop and maintain strong partner relationships",
+        "Maintain brand consistency across all marketing channels"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Estelle Darcy",
+      "position": "Wardiere Inc. / CTO",
+      "phone": "123-456-7890",
+      "email": "hello@site.com"
+    },
+    {
+      "name": "Harper Richard",
+      "position": "Wardiere Inc. / CEO",
+      "phone": "123-456-7890",
+      "email": "hello@site.com"
+    }
+  ],
+  "profileDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}

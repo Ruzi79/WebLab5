@@ -1,0 +1,274 @@
+
+  
+  body {
+    background: #f5f5f5;
+    padding: 30px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .left-column {
+    width: 33%;
+    background: #163853;
+    color: white;
+    padding: 20px 35px 20px;
+  }
+  
+  .right-column {
+    width: 68%;
+    padding: 30px;
+  }
+  
+  .profile-pic img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 20px auto 40px;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .contact, .education, .skills, .languages {
+    margin-bottom: 35px;
+  }
+  .skills ul{
+    padding-left: 10px;
+  }
+  .education ul{
+    padding-left: 10px;
+  }
+  .languages ul{
+    padding-left: 10px;
+  }
+
+  .languages ul li{
+    margin-bottom: 8px;
+  }
+
+  .skills ul li{
+    margin-bottom: 8px;
+  }
+
+  .education ul li{
+    margin-bottom: 8px;
+  }
+  
+  h2 {
+    
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  }
+
+  .div1 {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 35px 5px 5px 10px;
+  }
+
+ 
+  
+  .bold {
+    font-weight: 800;
+    font-size: 35px;
+    color: #555555;
+    margin-bottom: 8px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  
+ .market{
+  color: #2b2b2b;
+  font-weight: lighter;
+  margin-left: 12px;
+  margin-top: 0;
+  margin-bottom: 4px;
+ }
+
+ .underline {
+  width: 63px;
+  height: 4px;
+  background-color: #163853;
+  margin-left: 12px;
+  margin-bottom: 70px;
+}
+
+ section {
+  margin-bottom: 30px;
+}
+
+  .work-experience ul{
+    padding-left: 10px;
+  }
+  .new  {
+    color: #163853;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #163853;
+    padding-bottom: 5px;
+  }
+
+.reference-section {
+  margin-top: 30px;
+}
+
+
+.reference-container {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.reference-box {
+  width: 48%;
+}
+
+.reference-box p {
+  margin: 6px 0;
+}
+
+.label{
+  color:#545454;
+}
+
+.work-experience {
+  margin: 5px 0;
+}
+
+
+
+.timeline {
+  position: relative;
+  margin-left: 2px;
+  margin-top: 0;
+  padding-left: 20px;
+  border-left: 2px solid #2b3e50;
+}
+
+.entry {
+  position: relative;
+  
+}
+
+.timeline h3{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #5b5b5b;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #2b3e50;
+  border-radius: 40%;
+  position: absolute;
+  left: -26px;
+  
+}
+
+.content .date {
+  float: right;
+  font-weight: normal;
+  color: #555;
+}
+
+.content p {
+  margin: 5px 0;
+}
+
+.content ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.content ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.button {
+  padding: 8px 14px;
+  margin-top: 15px;
+  border: 2px solid #163853;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  display: block;
+}
+
+.button-blue {
+  background-color: #163853;
+  color: white;
+}
+
+.button-white {
+  background-color: white;
+  color: #163853;
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.edit-input {
+  width: calc(100% - 80px);
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.edit-save {
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #163853;
+  color: white;
+}
+
+.edit-delete {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: white;
+}
+
+.warning {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  max-width: calc(100% - 20px);
+  text-align: center;
+}
